@@ -5,9 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
-import kotlinx.android.synthetic.main.activity_main_login.*
 
-class MainActivityLogin : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,7 +17,7 @@ class MainActivityLogin : AppCompatActivity() {
         val btnEntrar = findViewById<Button>(R.id.btnEntrar)
 
         btnEntrar.setOnClickListener {
-            val intententer:Intent = Intent (this, MainActivityLogin2::class.java)
+            val intententer:Intent = Intent (this, ListaAlunoActivity::class.java)
 
             intententer.putExtra("Login", edTxtLogin.text.toString())
             intententer.putExtra("Senha", edTxtSenha.text.toString())

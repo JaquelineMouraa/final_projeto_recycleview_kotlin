@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivityRegistro2"></activity>
-        <activity android:name=".MainActivityLogin2" />
-        <activity android:name=".MainActivityRegistro" />
-        <activity android:name=".MainActivityLogin" />
+        <activity android:name=".adpteraluno.ItemListAluno" />
+        <activity android:name=".ListaAlunoActivity" />
+        <activity android:name=".RegistroAlunoActivity" />
+        <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
