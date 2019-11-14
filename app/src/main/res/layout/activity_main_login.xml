@@ -20,7 +20,7 @@
                 android:id="@+id/edTxtLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nome"
+                android:hint="Nome"
                 android:textSize="20sp" />
 
             <EditText
@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
-                android:text="Matrícula" />
+                android:hint="Matrícula" />
         </LinearLayout>
 
     </LinearLayout>
